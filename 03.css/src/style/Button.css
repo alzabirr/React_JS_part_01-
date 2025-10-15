@@ -1,0 +1,12 @@
+.btn{
+    color: white;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(99, 147, 192);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    
+}
