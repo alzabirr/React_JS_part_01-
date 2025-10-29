@@ -117,23 +117,42 @@
 
 
 
+// import React, { useState } from 'react'
+
+// const App = () => {
+//   const [name, setName] = useState({user : "rafi", age : 23})
+
+//   const clickBTN = ()=>{
+//     const newName = {...name}
+//     newName.user = "kafi"
+//     newName.age = 24
+//     setName(newName)
+    
+
+//   }
+//   return (
+//     <div>
+//       <h1>numbers : {name.user} age is :{name.age}</h1>
+//       <button onClick={clickBTN}>hit </button>
+//     </div>
+//   )
+// }
+
+// export default 
+
 import React, { useState } from 'react'
 
 const App = () => {
-  const [name, setName] = useState({user : "rafi", age : 23})
-
-  const clickBTN = ()=>{
+  var [name ,setName ] = useState({user : "rafi", roll:31 })
+  const clickHere = ()=>{
     const newName = {...name}
-    newName.user = "kafi"
-    newName.age = 24
-    setName(newName)
-    
-
+    newName.user = "Hudaii"
+    setName(newName) 
   }
   return (
     <div>
-      <h1>numbers : {name.user} age is :{name.age}</h1>
-      <button onClick={clickBTN}>hit </button>
+      <h1>name : {name.user}</h1>
+      <button onClick={clickHere}>cl;ick</button>
     </div>
   )
 }
