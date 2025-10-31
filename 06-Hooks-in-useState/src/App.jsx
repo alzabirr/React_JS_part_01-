@@ -140,19 +140,73 @@
 
 // export default 
 
+
+
+
+
+
+
+
+// import React, { useState } from 'react'
+
+// const App = () => {
+//   var [name ,setName ] = useState({user : "rafi", roll:31 })
+//   const clickHere = ()=>{
+//     const newName = {...name}
+//     newName.user = "Hudaii"
+//     setName(newName) 
+//   }
+//   return (
+//     <div>
+//       <h1>name : {name.user}</h1>
+//       <button onClick={clickHere}>cl;ick</button>
+//     </div>
+//   )
+// }
+
+// export default App
+// import React, { useState } from 'react'
+
+// const App = () => {
+//   const [name, usename] = useState({namee : "rafi"})
+//   const cclickBtn = ()=>{
+//     const newName = {...namee}
+//     newName.namee = "kafooo"
+//     usename(newName)
+//   }
+//   return (
+//     <div>
+//       <h1>name : {name.namee}</h1>
+//       <button onClick={cclickBtn}>ok ok </button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
 import React, { useState } from 'react'
 
 const App = () => {
-  var [name ,setName ] = useState({user : "rafi", roll:31 })
-  const clickHere = ()=>{
-    const newName = {...name}
-    newName.user = "Hudaii"
-    setName(newName) 
-  }
+  const [name, namesate] =useState({user :"rafi", id : 123456})
+    const clickHere = ()=>{
+      const newName ={...name}
+      newName.user = "kafi"
+      newName.id = 12656
+      namesate(newName)
+    }
+
+
+
+
   return (
     <div>
-      <h1>name : {name.user}</h1>
-      <button onClick={clickHere}>cl;ick</button>
+      <h1>name : {name.user} {name.id}</h1>
+      <button onClick={clickHere}>clockhere</button>
     </div>
   )
 }
